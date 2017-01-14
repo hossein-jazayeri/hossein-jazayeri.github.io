@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Code Complexity Comparision"
-date:   2017-01-14
+date:   2017-01-14 20:12:04 +0330
 ---
 
 *How hard a project can be to understand, maintain, refactor, and fix bugs?*
