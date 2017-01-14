@@ -4,12 +4,6 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+I am an experienced, resourceful, and problem-solving software engineer, specialized in design, development and tooling. I usually have a high level of involvement in the advancement of the companies and adherence to best practices. I understand the workings of software and capable of creating/extending applications with PHP to cover the needs of my team based on agile methodologies.
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+In short, I'm a senior PHP backend developer & machine learning enthusiast.

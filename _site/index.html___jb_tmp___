@@ -6,12 +6,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>About</title>
+  <title>Hossein Jazayeri Blog</title>
   <meta name="description" content="A Repository of my thoughts
 ">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="https://jerzinet.github.io/about/">
+  <link rel="canonical" href="https://jerzinet.github.io/___jb_tmp___">
   <link rel="alternate" type="application/rss+xml" title="Hossein Jazayeri Blog" href="https://jerzinet.github.io/feed.xml">
 </head>
 
@@ -45,6 +45,8 @@
         
           
         
+          
+        
       </div>
     </nav>
 
@@ -55,20 +57,28 @@
 
     <div class="page-content">
       <div class="wrapper">
-        <article class="post">
+        <div class="home">
 
-  <header class="post-header">
-    <h1 class="post-title">About</h1>
-  </header>
+    <h1 class="page-heading">Posts</h1>
 
-  <div class="post-content">
-    <p>I am an experienced, resourceful, and problem-solving software engineer, specialized in design, development and tooling. I usually have a high level of involvement in the advancement of the companies and adherence to best practices. I understand the workings of software and capable of creating/extending applications with PHP to cover the needs of my team based on agile methodologies.</p>
+    <ul class="post-list">
+        
+        <li>
+            <span class="post-meta">Jan 14, 2017</span>
 
-<p>In short, I’m a senior PHP backend developer &amp; machine learning enthusiast.</p>
+            <h2>
+            </h2>
+            <a class="post-link" href="/2017/01/14/code-complexity-comparision.html">Code Complexity Comparision</a>
+            <p><strong>How hard a project can be to be understood, maintained, refactored, and/or fixed bugs?</strong></p>
 
-  </div>
 
-</article>
+        </li>
+        
+    </ul>
+
+    <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p>
+
+</div>
 
       </div>
     </div>
