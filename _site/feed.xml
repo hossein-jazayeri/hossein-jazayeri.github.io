@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hossein Jazayeri Blog</title>
+    <description>A Repository of my thoughts
+</description>
+    <link>https://jerzinet.github.io//</link>
+    <atom:link href="https://jerzinet.github.io//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 14 Jan 2017 20:10:27 +0330</pubDate>
+    <lastBuildDate>Sat, 14 Jan 2017 20:10:27 +0330</lastBuildDate>
+    <generator>Jekyll v3.0.1</generator>
+    
+      <item>
+        <title>Welcome to Jekyll!</title>
+        <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;Tom&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &#39;Hi, Tom&#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 14 Jan 2017 18:50:04 +0330</pubDate>
+        <link>https://jerzinet.github.io//jekyll/update/2017/01/14/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">https://jerzinet.github.io//jekyll/update/2017/01/14/welcome-to-jekyll.html</guid>
+        
+        
+        <category>jekyll</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Code Complexity Comparision</title>
+        <description>&lt;p&gt;&lt;em&gt;How hard a project can be to understand, maintain, refactor, and fix bugs?&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Well I’ve always spent some time on each project to get the intuition but after all it’s just
+my intuition and convincing others on that usually takes quite a time if it’s negotiable at all.
+Except how hard a project can be to start contributing, There are other important aspects too like
+where are the most complexities lied on? and where are the most error prone parts of the code?&lt;/p&gt;
+
+&lt;p&gt;There are plenty of tools for each of these metrics and usually there results are impressive.
+Here I compared my current company’s project with the last two which tells me all the feeling
+I’ve experienced about each one on them on how complex and hard they were:&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Company&lt;/th&gt;
+      &lt;th&gt;Maintainability&lt;/th&gt;
+      &lt;th&gt;Accessibility for new developers&lt;/th&gt;
+      &lt;th&gt;Simplicity of algorithms&lt;/th&gt;
+      &lt;th&gt;Volume&lt;/th&gt;
+      &lt;th&gt;Reducing bug’s probability&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;X&lt;/td&gt;
+      &lt;td&gt;70.29 / 100&lt;/td&gt;
+      &lt;td&gt;43.9 / 100&lt;/td&gt;
+      &lt;td&gt;76.43 / 100&lt;/td&gt;
+      &lt;td&gt;79.55 / 100&lt;/td&gt;
+      &lt;td&gt;68.85 / 100&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Y&lt;/td&gt;
+      &lt;td&gt;57.71 / 100&lt;/td&gt;
+      &lt;td&gt;38.65 / 100&lt;/td&gt;
+      &lt;td&gt;50.71 / 100&lt;/td&gt;
+      &lt;td&gt;69.68 / 100&lt;/td&gt;
+      &lt;td&gt;65.57 / 100&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Current&lt;/td&gt;
+      &lt;td&gt;28.75 / 100&lt;/td&gt;
+      &lt;td&gt;21.52 / 100&lt;/td&gt;
+      &lt;td&gt;29.71 / 100&lt;/td&gt;
+      &lt;td&gt;24.2 / 100&lt;/td&gt;
+      &lt;td&gt;29.51 / 100&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;X
+&lt;img src=&quot;code-complexity-comparision/x-overview.png&quot; alt=&quot;overview&quot; title=&quot;Overview&quot; /&gt;
+&lt;img src=&quot;code-complexity-comparision/x-evaluation.png&quot; alt=&quot;evaluation&quot; title=&quot;Evaluation&quot; /&gt;
+&lt;img src=&quot;code-complexity-comparision/x-relations-map.png&quot; alt=&quot;relations map&quot; title=&quot;Relations Map&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Y
+&lt;img src=&quot;code-complexity-comparision/y-overview.png&quot; alt=&quot;overview&quot; title=&quot;Overview&quot; /&gt;
+&lt;img src=&quot;code-complexity-comparision/y-evaluation.png&quot; alt=&quot;evaluation&quot; title=&quot;Evaluation&quot; /&gt;
+&lt;img src=&quot;code-complexity-comparision/y-relations-map.png&quot; alt=&quot;relations map&quot; title=&quot;Relations Map&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Current
+&lt;img src=&quot;code-complexity-comparision/current-overview.png&quot; alt=&quot;overview&quot; title=&quot;Overview&quot; /&gt;
+&lt;img src=&quot;code-complexity-comparision/current-evaluation.png&quot; alt=&quot;evaluation&quot; title=&quot;Evaluation&quot; /&gt;
+&lt;img src=&quot;code-complexity-comparision/current-relations-map.png&quot; alt=&quot;relations map&quot; title=&quot;Relations Map&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sat, 14 Jan 2017 00:00:00 +0330</pubDate>
+        <link>https://jerzinet.github.io//2017/01/14/code-complexity-comparision.html</link>
+        <guid isPermaLink="true">https://jerzinet.github.io//2017/01/14/code-complexity-comparision.html</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>
