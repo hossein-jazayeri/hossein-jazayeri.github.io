@@ -4,11 +4,115 @@
     <title>Hossein Jazayeri Blog</title>
     <description>A Repository of my thoughts
 </description>
-    <link>https://jerzinet.github.io//</link>
-    <atom:link href="https://jerzinet.github.io//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 14 Jan 2017 20:10:27 +0330</pubDate>
-    <lastBuildDate>Sat, 14 Jan 2017 20:10:27 +0330</lastBuildDate>
+    <link>http://127.0.0.1:4000/</link>
+    <atom:link href="http://127.0.0.1:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sat, 14 Jan 2017 23:45:50 +0330</pubDate>
+    <lastBuildDate>Sat, 14 Jan 2017 23:45:50 +0330</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
+    
+      <item>
+        <title>Code Complexity Comparision</title>
+        <description>&lt;p&gt;&lt;strong&gt;How hard a project can be to be understood, maintained, refactored, and/or fixed bugs?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Well I’ve always spent some time on each project to get the intuition but after all it’s just
+my intuition and convincing others usually takes quite a time if it’s negotiable at all.
+Except how hard a project can be to start contributing, there are other important aspects too like
+where are the most complexities lied on? and where are the most error prone parts of the code?&lt;/p&gt;
+
+&lt;p&gt;There are plenty of tools&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; for each of these metrics&lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt; and usually there results are impressive.
+Here I compared 3 companies’ projects with each other which tells me all the feelings I’ve experienced
+about each one on them:&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Metrics&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Company X&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Company Y&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Company Z&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Maintainability&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;70.29 / 100&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;57.71 / 100&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;28.75 / 100&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Accessibility for new developers&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;43.90 / 100&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;38.65 / 100&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;21.52 / 100&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Simplicity of algorithms&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;76.43 / 100&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;50.71 / 100&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;29.71 / 100&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Volume&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;79.55 / 100&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;69.68 / 100&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;24.20 / 100&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;&lt;strong&gt;Reducing bug’s probability&lt;/strong&gt;&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;68.85 / 100&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;65.57 / 100&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;29.51 / 100&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;hr /&gt;
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;company-x&quot;&gt;Company X&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://127.0.0.1:4000/assets/code-complexity-comparision/x-overview.png&quot; title=&quot;Overview&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://127.0.0.1:4000/assets/code-complexity-comparision/x-overview.png&quot; alt=&quot;overview&quot; title=&quot;Overview&quot; width=&quot;200px&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;http://127.0.0.1:4000/assets/code-complexity-comparision/x-evaluation.png&quot; title=&quot;Evaluation&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://127.0.0.1:4000/assets/code-complexity-comparision/x-evaluation.png&quot; alt=&quot;evaluation&quot; title=&quot;Evaluation&quot; width=&quot;200px&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;http://127.0.0.1:4000/assets/code-complexity-comparision/x-relations-map.png&quot; title=&quot;Relations Map&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://127.0.0.1:4000/assets/code-complexity-comparision/x-relations-map.png&quot; alt=&quot;relations-map&quot; title=&quot;Relations Map&quot; width=&quot;200px&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;company-y&quot;&gt;Company Y&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://127.0.0.1:4000/assets/code-complexity-comparision/y-overview.png&quot; title=&quot;Overview&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://127.0.0.1:4000/assets/code-complexity-comparision/y-overview.png&quot; alt=&quot;overview&quot; title=&quot;Overview&quot; width=&quot;200px&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;http://127.0.0.1:4000/assets/code-complexity-comparision/y-evaluation.png&quot; title=&quot;Evaluation&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://127.0.0.1:4000/assets/code-complexity-comparision/y-evaluation.png&quot; alt=&quot;evaluation&quot; title=&quot;Evaluation&quot; width=&quot;200px&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;http://127.0.0.1:4000/assets/code-complexity-comparision/y-relations-map.png&quot; title=&quot;Relations Map&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://127.0.0.1:4000/assets/code-complexity-comparision/y-relations-map.png&quot; alt=&quot;relations-map&quot; title=&quot;Relations Map&quot; width=&quot;200px&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;company-z&quot;&gt;Company Z&lt;/h1&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://127.0.0.1:4000/assets/code-complexity-comparision/z-overview.png&quot; title=&quot;Overview&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://127.0.0.1:4000/assets/code-complexity-comparision/z-overview.png&quot; alt=&quot;overview&quot; title=&quot;Overview&quot; width=&quot;200px&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;http://127.0.0.1:4000/assets/code-complexity-comparision/z-evaluation.png&quot; title=&quot;Evaluation&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://127.0.0.1:4000/assets/code-complexity-comparision/z-evaluation.png&quot; alt=&quot;evaluation&quot; title=&quot;Evaluation&quot; width=&quot;200px&quot; /&gt;&lt;/a&gt;
+&lt;a href=&quot;http://127.0.0.1:4000/assets/code-complexity-comparision/z-relations-map.png&quot; title=&quot;Relations Map&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://127.0.0.1:4000/assets/code-complexity-comparision/z-relations-map.png&quot; alt=&quot;relations-map&quot; title=&quot;Relations Map&quot; width=&quot;200px&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The beauty lies on comparison. More red circles means much harder to maintain and collaborate, in addition to that,
+project suffers from bad and complex design. It also implies refactoring is not taken as much serious as it should
+be and the only converging thing is technical debt.&lt;/p&gt;
+
+&lt;p&gt;It can also shows company’s moral for example does this company put time for paying code’s debt or all features are
+in rush and should be delivered as fast as possible by whatever quality it gains (feature-rich) and lots of other
+things.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;div class=&quot;footnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot;&gt;
+      &lt;p&gt;I used &lt;a href=&quot;https://github.com/phpmetrics/PhpMetrics&quot;&gt;PhpMetrics&lt;/a&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:2&quot;&gt;
+      &lt;p&gt;e.g. &lt;a href=&quot;https://en.wikipedia.org/wiki/Cyclomatic_complexity&quot;&gt;cyclomatic complexity&lt;/a&gt; &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Sat, 14 Jan 2017 20:12:04 +0330</pubDate>
+        <link>http://127.0.0.1:4000/2017/01/14/code-complexity-comparision.html</link>
+        <guid isPermaLink="true">http://127.0.0.1:4000/2017/01/14/code-complexity-comparision.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Welcome to Jekyll!</title>
@@ -28,87 +132,13 @@
 
 </description>
         <pubDate>Sat, 14 Jan 2017 18:50:04 +0330</pubDate>
-        <link>https://jerzinet.github.io//jekyll/update/2017/01/14/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">https://jerzinet.github.io//jekyll/update/2017/01/14/welcome-to-jekyll.html</guid>
+        <link>http://127.0.0.1:4000/jekyll/update/2017/01/14/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://127.0.0.1:4000/jekyll/update/2017/01/14/welcome-to-jekyll.html</guid>
         
         
         <category>jekyll</category>
         
         <category>update</category>
-        
-      </item>
-    
-      <item>
-        <title>Code Complexity Comparision</title>
-        <description>&lt;p&gt;&lt;em&gt;How hard a project can be to understand, maintain, refactor, and fix bugs?&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Well I’ve always spent some time on each project to get the intuition but after all it’s just
-my intuition and convincing others on that usually takes quite a time if it’s negotiable at all.
-Except how hard a project can be to start contributing, There are other important aspects too like
-where are the most complexities lied on? and where are the most error prone parts of the code?&lt;/p&gt;
-
-&lt;p&gt;There are plenty of tools for each of these metrics and usually there results are impressive.
-Here I compared my current company’s project with the last two which tells me all the feeling
-I’ve experienced about each one on them on how complex and hard they were:&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;Company&lt;/th&gt;
-      &lt;th&gt;Maintainability&lt;/th&gt;
-      &lt;th&gt;Accessibility for new developers&lt;/th&gt;
-      &lt;th&gt;Simplicity of algorithms&lt;/th&gt;
-      &lt;th&gt;Volume&lt;/th&gt;
-      &lt;th&gt;Reducing bug’s probability&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;X&lt;/td&gt;
-      &lt;td&gt;70.29 / 100&lt;/td&gt;
-      &lt;td&gt;43.9 / 100&lt;/td&gt;
-      &lt;td&gt;76.43 / 100&lt;/td&gt;
-      &lt;td&gt;79.55 / 100&lt;/td&gt;
-      &lt;td&gt;68.85 / 100&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Y&lt;/td&gt;
-      &lt;td&gt;57.71 / 100&lt;/td&gt;
-      &lt;td&gt;38.65 / 100&lt;/td&gt;
-      &lt;td&gt;50.71 / 100&lt;/td&gt;
-      &lt;td&gt;69.68 / 100&lt;/td&gt;
-      &lt;td&gt;65.57 / 100&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;Current&lt;/td&gt;
-      &lt;td&gt;28.75 / 100&lt;/td&gt;
-      &lt;td&gt;21.52 / 100&lt;/td&gt;
-      &lt;td&gt;29.71 / 100&lt;/td&gt;
-      &lt;td&gt;24.2 / 100&lt;/td&gt;
-      &lt;td&gt;29.51 / 100&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;X
-&lt;img src=&quot;code-complexity-comparision/x-overview.png&quot; alt=&quot;overview&quot; title=&quot;Overview&quot; /&gt;
-&lt;img src=&quot;code-complexity-comparision/x-evaluation.png&quot; alt=&quot;evaluation&quot; title=&quot;Evaluation&quot; /&gt;
-&lt;img src=&quot;code-complexity-comparision/x-relations-map.png&quot; alt=&quot;relations map&quot; title=&quot;Relations Map&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Y
-&lt;img src=&quot;code-complexity-comparision/y-overview.png&quot; alt=&quot;overview&quot; title=&quot;Overview&quot; /&gt;
-&lt;img src=&quot;code-complexity-comparision/y-evaluation.png&quot; alt=&quot;evaluation&quot; title=&quot;Evaluation&quot; /&gt;
-&lt;img src=&quot;code-complexity-comparision/y-relations-map.png&quot; alt=&quot;relations map&quot; title=&quot;Relations Map&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Current
-&lt;img src=&quot;code-complexity-comparision/current-overview.png&quot; alt=&quot;overview&quot; title=&quot;Overview&quot; /&gt;
-&lt;img src=&quot;code-complexity-comparision/current-evaluation.png&quot; alt=&quot;evaluation&quot; title=&quot;Evaluation&quot; /&gt;
-&lt;img src=&quot;code-complexity-comparision/current-relations-map.png&quot; alt=&quot;relations map&quot; title=&quot;Relations Map&quot; /&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sat, 14 Jan 2017 00:00:00 +0330</pubDate>
-        <link>https://jerzinet.github.io//2017/01/14/code-complexity-comparision.html</link>
-        <guid isPermaLink="true">https://jerzinet.github.io//2017/01/14/code-complexity-comparision.html</guid>
-        
         
       </item>
     

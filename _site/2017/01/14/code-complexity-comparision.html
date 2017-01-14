@@ -7,11 +7,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Code Complexity Comparision</title>
-  <meta name="description" content="How hard a project can be to understand, maintain, refactor, and fix bugs?">
+  <meta name="description" content="How hard a project can be to be understood, maintained, refactored, and/or fixed bugs?">
 
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="https://jerzinet.github.io//2017/01/14/code-complexity-comparision.html">
-  <link rel="alternate" type="application/rss+xml" title="Hossein Jazayeri Blog" href="https://jerzinet.github.io//feed.xml">
+  <link rel="canonical" href="http://127.0.0.1:4000/2017/01/14/code-complexity-comparision.html">
+  <link rel="alternate" type="application/rss+xml" title="Hossein Jazayeri Blog" href="http://127.0.0.1:4000/feed.xml">
 </head>
 
 
@@ -58,74 +58,104 @@
 
   <header class="post-header">
     <h1 class="post-title" itemprop="name headline">Code Complexity Comparision</h1>
-    <p class="post-meta"><time datetime="2017-01-14T00:00:00+03:30" itemprop="datePublished">Jan 14, 2017</time></p>
+    <p class="post-meta"><time datetime="2017-01-14T20:12:04+03:30" itemprop="datePublished">Jan 14, 2017</time></p>
   </header>
 
   <div class="post-content" itemprop="articleBody">
-    <p><em>How hard a project can be to understand, maintain, refactor, and fix bugs?</em></p>
+    <p><strong>How hard a project can be to be understood, maintained, refactored, and/or fixed bugs?</strong></p>
 
 <p>Well I’ve always spent some time on each project to get the intuition but after all it’s just
-my intuition and convincing others on that usually takes quite a time if it’s negotiable at all.
-Except how hard a project can be to start contributing, There are other important aspects too like
+my intuition and convincing others usually takes quite a time if it’s negotiable at all.
+Except how hard a project can be to start contributing, there are other important aspects too like
 where are the most complexities lied on? and where are the most error prone parts of the code?</p>
 
-<p>There are plenty of tools for each of these metrics and usually there results are impressive.
-Here I compared my current company’s project with the last two which tells me all the feeling
-I’ve experienced about each one on them on how complex and hard they were:</p>
+<p>There are plenty of tools<sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup> for each of these metrics<sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup> and usually there results are impressive.
+Here I compared 3 companies’ projects with each other which tells me all the feelings I’ve experienced
+about each one on them:</p>
 
 <table>
   <thead>
     <tr>
-      <th>Company</th>
-      <th>Maintainability</th>
-      <th>Accessibility for new developers</th>
-      <th>Simplicity of algorithms</th>
-      <th>Volume</th>
-      <th>Reducing bug’s probability</th>
+      <th style="text-align: left">Metrics</th>
+      <th style="text-align: center">Company X</th>
+      <th style="text-align: center">Company Y</th>
+      <th style="text-align: center">Company Z</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>X</td>
-      <td>70.29 / 100</td>
-      <td>43.9 / 100</td>
-      <td>76.43 / 100</td>
-      <td>79.55 / 100</td>
-      <td>68.85 / 100</td>
+      <td style="text-align: left"><strong>Maintainability</strong></td>
+      <td style="text-align: center">70.29 / 100</td>
+      <td style="text-align: center">57.71 / 100</td>
+      <td style="text-align: center">28.75 / 100</td>
     </tr>
     <tr>
-      <td>Y</td>
-      <td>57.71 / 100</td>
-      <td>38.65 / 100</td>
-      <td>50.71 / 100</td>
-      <td>69.68 / 100</td>
-      <td>65.57 / 100</td>
+      <td style="text-align: left"><strong>Accessibility for new developers</strong></td>
+      <td style="text-align: center">43.90 / 100</td>
+      <td style="text-align: center">38.65 / 100</td>
+      <td style="text-align: center">21.52 / 100</td>
     </tr>
     <tr>
-      <td>Current</td>
-      <td>28.75 / 100</td>
-      <td>21.52 / 100</td>
-      <td>29.71 / 100</td>
-      <td>24.2 / 100</td>
-      <td>29.51 / 100</td>
+      <td style="text-align: left"><strong>Simplicity of algorithms</strong></td>
+      <td style="text-align: center">76.43 / 100</td>
+      <td style="text-align: center">50.71 / 100</td>
+      <td style="text-align: center">29.71 / 100</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><strong>Volume</strong></td>
+      <td style="text-align: center">79.55 / 100</td>
+      <td style="text-align: center">69.68 / 100</td>
+      <td style="text-align: center">24.20 / 100</td>
+    </tr>
+    <tr>
+      <td style="text-align: left"><strong>Reducing bug’s probability</strong></td>
+      <td style="text-align: center">68.85 / 100</td>
+      <td style="text-align: center">65.57 / 100</td>
+      <td style="text-align: center">29.51 / 100</td>
     </tr>
   </tbody>
 </table>
 
-<p>X
-<img src="code-complexity-comparision/x-overview.png" alt="overview" title="Overview" />
-<img src="code-complexity-comparision/x-evaluation.png" alt="evaluation" title="Evaluation" />
-<img src="code-complexity-comparision/x-relations-map.png" alt="relations map" title="Relations Map" /></p>
+<hr />
+<hr />
 
-<p>Y
-<img src="code-complexity-comparision/y-overview.png" alt="overview" title="Overview" />
-<img src="code-complexity-comparision/y-evaluation.png" alt="evaluation" title="Evaluation" />
-<img src="code-complexity-comparision/y-relations-map.png" alt="relations map" title="Relations Map" /></p>
+<h1 id="company-x">Company X</h1>
 
-<p>Current
-<img src="code-complexity-comparision/current-overview.png" alt="overview" title="Overview" />
-<img src="code-complexity-comparision/current-evaluation.png" alt="evaluation" title="Evaluation" />
-<img src="code-complexity-comparision/current-relations-map.png" alt="relations map" title="Relations Map" /></p>
+<p><a href="http://127.0.0.1:4000/assets/code-complexity-comparision/x-overview.png" title="Overview" target="_blank"><img src="http://127.0.0.1:4000/assets/code-complexity-comparision/x-overview.png" alt="overview" title="Overview" width="200px" /></a>
+<a href="http://127.0.0.1:4000/assets/code-complexity-comparision/x-evaluation.png" title="Evaluation" target="_blank"><img src="http://127.0.0.1:4000/assets/code-complexity-comparision/x-evaluation.png" alt="evaluation" title="Evaluation" width="200px" /></a>
+<a href="http://127.0.0.1:4000/assets/code-complexity-comparision/x-relations-map.png" title="Relations Map" target="_blank"><img src="http://127.0.0.1:4000/assets/code-complexity-comparision/x-relations-map.png" alt="relations-map" title="Relations Map" width="200px" /></a></p>
+
+<h1 id="company-y">Company Y</h1>
+
+<p><a href="http://127.0.0.1:4000/assets/code-complexity-comparision/y-overview.png" title="Overview" target="_blank"><img src="http://127.0.0.1:4000/assets/code-complexity-comparision/y-overview.png" alt="overview" title="Overview" width="200px" /></a>
+<a href="http://127.0.0.1:4000/assets/code-complexity-comparision/y-evaluation.png" title="Evaluation" target="_blank"><img src="http://127.0.0.1:4000/assets/code-complexity-comparision/y-evaluation.png" alt="evaluation" title="Evaluation" width="200px" /></a>
+<a href="http://127.0.0.1:4000/assets/code-complexity-comparision/y-relations-map.png" title="Relations Map" target="_blank"><img src="http://127.0.0.1:4000/assets/code-complexity-comparision/y-relations-map.png" alt="relations-map" title="Relations Map" width="200px" /></a></p>
+
+<h1 id="company-z">Company Z</h1>
+
+<p><a href="http://127.0.0.1:4000/assets/code-complexity-comparision/z-overview.png" title="Overview" target="_blank"><img src="http://127.0.0.1:4000/assets/code-complexity-comparision/z-overview.png" alt="overview" title="Overview" width="200px" /></a>
+<a href="http://127.0.0.1:4000/assets/code-complexity-comparision/z-evaluation.png" title="Evaluation" target="_blank"><img src="http://127.0.0.1:4000/assets/code-complexity-comparision/z-evaluation.png" alt="evaluation" title="Evaluation" width="200px" /></a>
+<a href="http://127.0.0.1:4000/assets/code-complexity-comparision/z-relations-map.png" title="Relations Map" target="_blank"><img src="http://127.0.0.1:4000/assets/code-complexity-comparision/z-relations-map.png" alt="relations-map" title="Relations Map" width="200px" /></a></p>
+
+<p>The beauty lies on comparison. More red circles means much harder to maintain and collaborate, in addition to that,
+project suffers from bad and complex design. It also implies refactoring is not taken as much serious as it should
+be and the only converging thing is technical debt.</p>
+
+<p>It can also shows company’s moral for example does this company put time for paying code’s debt or all features are
+in rush and should be delivered as fast as possible by whatever quality it gains (feature-rich) and lots of other
+things.</p>
+
+<hr />
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>I used <a href="https://github.com/phpmetrics/PhpMetrics">PhpMetrics</a> <a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:2">
+      <p>e.g. <a href="https://en.wikipedia.org/wiki/Cyclomatic_complexity">cyclomatic complexity</a> <a href="#fnref:2" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
 
   </div>
 
