@@ -8,7 +8,7 @@
 # Site settings
 title: Hossein Jazayeri Blog
 email: jerzi.net@gmail.com
-description: A Repository of my thoughts
+description: Repository of my thoughts
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://hossein-jazayeri.github.io" # the base hostname & protocol for your site
 twitter_username: hjazayeri
